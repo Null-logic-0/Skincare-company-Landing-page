@@ -1,0 +1,15 @@
+<svg width="48.000000" height="48.000000" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip134_24">
+			<rect id="fe:youtube" width="21.333334" height="21.333334" transform="translate(13.333313 13.333496)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<circle id="Ellipse 16" cx="24.000000" cy="24.000000" r="23.500000" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.000000"/>
+	<rect id="fe:youtube" width="21.333334" height="21.333334" transform="translate(13.333313 13.333496)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip134_24)">
+		<path id="Vector" d="M22.16 26.33L22.16 21.34L26.96 23.84L22.16 26.33ZM32.71 20.47C32.71 20.47 32.53 19.24 32 18.71C31.32 18 30.57 17.99 30.22 17.95C27.73 17.77 24 17.77 24 17.77L23.99 17.77C23.99 17.77 20.26 17.77 17.77 17.95C17.42 17.99 16.67 18 15.99 18.71C15.46 19.24 15.28 20.47 15.28 20.47C15.28 20.47 15.11 21.91 15.11 23.35L15.11 24.7C15.11 26.13 15.28 27.57 15.28 27.57C15.28 27.57 15.46 28.8 15.99 29.34C16.67 30.05 17.56 30.02 17.95 30.1C19.37 30.23 24 30.28 24 30.28C24 30.28 27.73 30.27 30.22 30.09C30.57 30.05 31.32 30.05 32 29.34C32.53 28.8 32.71 27.57 32.71 27.57C32.71 27.57 32.88 26.13 32.88 24.7L32.88 23.35C32.88 21.91 32.71 20.47 32.71 20.47Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+</svg>

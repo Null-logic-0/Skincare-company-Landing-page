@@ -1,0 +1,12 @@
+<svg width="988.000000" height="695.000000" viewBox="0 0 988 695" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<mask id="mask134_395" mask-type="alpha" maskUnits="userSpaceOnUse" x="-0.139404" y="0.000000" width="988.139404" height="694.966064">
+		<path id="Shape" d="M988 0L988 605.23C598.92 828.25 -0.14 638.86 -0.14 0L988 0Z" fill="#49422E" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</mask>
+	<g mask="url(#mask134_395)">
+		<rect id="Rectangle" x="-1.511963" width="989.511841" height="742.476929" fill="#FFD871" fill-opacity="1.000000"/>
+	</g>
+</svg>
