@@ -2,9 +2,12 @@
 
 html {
     font-family: "Hind Madurai", sans-serif;
-    background: linear-gradient(175.82deg, rgb(255, 255, 255) 28.677%, rgb(241, 241, 241) 79.274%);
-    height: 900vh;
 
+}
+
+body {
+
+    background: linear-gradient(175.82deg, rgb(255, 255, 255) 28.677%, rgb(241, 241, 241) 79.274%);
 
 }
 
@@ -42,7 +45,6 @@ h6 {
     gap: 40px;
     justify-content: center;
     align-items: center;
-    background-color: linear-gradient(175.82deg, rgb(255, 255, 255) 20.361%, rgb(241, 241, 241) 88.414%);
     background-image: url("../Assets/icons/background-herosvg.svg");
     background-position: top right;
     background-size: 750px;
@@ -594,7 +596,7 @@ video {
     align-items: center;
     flex-direction: column;
     margin-top: 50px;
-    background-color: linear-gradient(175.82deg, rgb(255, 255, 255) 20.361%, rgb(241, 241, 241) 88.414%);
+
 }
 
 .products__title {
@@ -719,10 +721,6 @@ video {
     padding-bottom: 50px;
     width: 100%;
     flex-wrap: wrap;
-
-
-
-
 }
 
 .input__text {
@@ -801,6 +799,35 @@ video {
 
 }
 
+@media only screen and (max-width: 790px) {
+    .input__img {
+        width: 200px;
+        height: 200px;
+
+    }
+
+    .input {
+        gap: 20px;
+
+
+    }
+
+    .input__text {
+        gap: 20px;
+
+    }
+
+
+
+    .input__container {
+        margin-bottom: 30px;
+
+    }
+
+
+}
+
+
 @media only screen and (max-width: 590px) {
     .input__value {
         padding-right: 10px;
@@ -817,15 +844,20 @@ video {
         font-size: 16px;
     }
 
-    .input__img {
-        width: 200px;
-        height: 200px;
+
+    .input__value--btn {
+        padding: 20px 30px;
 
 
     }
 
-    .input__value--btn {
-        padding: 20px 30px;
+    .input__container {
+        margin-bottom: 20px;
+
+    }
+
+    .input {
+        gap: 10px;
 
 
     }
@@ -893,14 +925,14 @@ video {
     color: rgb(18, 18, 18);
     font-size: 18px;
     font-weight: 600;
-    
+
 }
 
 .feedback__location {
     color: rgb(62, 62, 62);
     font-size: 16px;
     font-weight: 500;
-    
+
 }
 
 .feedback__scroll {
@@ -912,7 +944,7 @@ video {
 }
 
 .dot {
-    background: linear-gradient(146.31deg, rgb(73, 66, 46) 8.809%,rgb(255, 216, 113) 110.07%);
+    background: linear-gradient(146.31deg, rgb(73, 66, 46) 8.809%, rgb(255, 216, 113) 110.07%);
     opacity: 0.3;
     width: 10px;
     height: 10px;
@@ -921,7 +953,7 @@ video {
 
 .prev,
 .next {
-    color: linear-gradient(146.31deg, rgb(73, 66, 46) 8.809%,rgb(255, 216, 113) 110.07%);
+    color: linear-gradient(146.31deg, rgb(73, 66, 46) 8.809%, rgb(255, 216, 113) 110.07%);
     width: 28px;
     height: 17px;
     cursor: pointer;
@@ -930,7 +962,179 @@ video {
 
 .active,
 .dot:hover {
-    border: 1px solid linear-gradient(146.31deg, rgb(73, 66, 46) 8.809%,rgb(255, 216, 113) 110.07%);
+    border: 1px solid linear-gradient(146.31deg, rgb(73, 66, 46) 8.809%, rgb(255, 216, 113) 110.07%);
     background-color: #fff;
     opacity: unset;
+}
+
+
+@media only screen and (max-width: 788px) {
+    .feedback__title {
+        font-size: 34px;
+
+    }
+
+    .feedback__item {
+        height: 300px;
+        width: 450px;
+        gap: 15px;
+    }
+
+
+
+    .feedback__txt {
+        font-size: 14px;
+        width: 230px;
+    }
+
+    .feedback__name {
+        font-size: 16px;
+    }
+
+
+}
+
+@media only screen and (max-width: 500px) {
+    .feedback__title {
+        font-size: 26px;
+
+    }
+
+    .feedback__item {
+        height: 300px;
+        width: 300px;
+    }
+
+    .feedback__txt {
+        font-size: 12px;
+        width: 230px;
+    }
+
+    .feedback__name {
+        font-size: 14px;
+    }
+
+
+}
+
+/*ambasadors section*/
+
+.ambasadors {
+    display: flex;
+    justify-content: center;
+    background: rgb(255, 216, 113);
+    height: 100px;
+    width: 100%;
+}
+
+.ambasadors__logos {
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    overflow-x: auto;
+    max-width: 1500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.ambasadors__logos img {
+    width: 200px;
+    height: 30px;
+}
+
+/*footer*/
+
+.footer {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 90px;
+    flex-wrap: wrap;
+    background: rgb(73, 66, 46);
+    width: 100%;
+    padding: 30px;
+}
+
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    gap: 20px;
+}
+
+.footer__logo-heading {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer__logo-txt {
+    color: rgb(255, 255, 255);
+    font-family: "Cinzel Decorative", serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 30px;
+
+}
+
+.footer__txt {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    width: 390px;
+
+}
+
+.footer__title {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.footer-list__item a,
+.footer__info a {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 38px;
+
+}
+
+.footer__end {
+    background: rgb(25, 25, 25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+
+.footer__end--txt {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 400;
+    
+}
+
+.footer__end--txt span {
+    font-family: "Cinzel Decorative", serif;
+    font-size: 14px;
+}
+
+.footer__socials {
+    display: flex;
+    gap: 10px;
+}
+
+.footer__socials img {
+    width: 30px;
+
 }

@@ -42,7 +42,7 @@ table {
 
 a {
     text-decoration: none;
-    
+
 
 }
 
@@ -54,9 +54,8 @@ a {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-    scroll-behavior: smooth;
-    
-    
+
+
 }
 
 button {
@@ -64,13 +63,14 @@ button {
     cursor: pointer;
 }
 
-select{
+select {
     background: none;
     border: none;
     cursor: pointer;
 }
 
-textarea:focus, input:focus{
+textarea:focus,
+input:focus {
     outline: none;
 }
 
